@@ -21,6 +21,7 @@ public class Hourly extends Employee {
 		this.hourlyWage = hourlyWage;
 	}
 
+	
 	public int getHoursPerWeek() {
 		return hoursPerWeek;
 	}

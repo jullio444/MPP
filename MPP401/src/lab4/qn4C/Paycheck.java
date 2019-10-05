@@ -17,6 +17,7 @@ final public class Paycheck {
         socialSecurity = Tax.SOCIALSECURITY.taxValue();
     }
 
+    
     public void print(){
     	StringBuilder sb = new StringBuilder();
     	sb.append("  Gross Pay: " + this.grossPay+"\n");

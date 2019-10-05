@@ -19,6 +19,7 @@ public abstract class Employee {
 		System.out.println("Employee id : " + this.empId+"\nPayslip:");
 	}
 
+	
 	public Paycheck calcCompensation(Month monthOfYear, int year) {
 		double grossPay = calcGrossPay(monthOfYear, year);
 		return new Paycheck(grossPay);

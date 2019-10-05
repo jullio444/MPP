@@ -17,3 +17,4 @@ public enum Tax {
         return taxPercentage;
     }
 }
+

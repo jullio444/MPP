@@ -20,6 +20,7 @@ public class Commissioned extends Employee {
 	public double getCommission() {
 		return commission;
 	}
+	
 
 	public void setCommission(double commission) {
 		this.commission = commission;

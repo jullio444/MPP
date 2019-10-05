@@ -14,7 +14,6 @@ public class Main {
 		emp1.print();
 		paycheck.print();	
 		
-		
 		Employee emp2 = new Salaried(2999);
 		Paycheck paycheck2 = emp2.calcCompensation(LocalDate.now().getMonth(), LocalDate.now().getYear());
 		emp2.print();
