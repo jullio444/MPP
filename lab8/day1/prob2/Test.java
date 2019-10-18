@@ -32,7 +32,8 @@ public class Test {
 		System.out.println(sort(products, sortMethod.TITLE));
 		System.out.println();
 
-		products.sort((p1,p2)->{
+		//If the title is same use model as another attribute to sort using Lambda
+		Collections.sort(products, (p1,p2)->{
 			if(p1.getTitle().equals(p2.getTitle())) {
 				return Integer.valueOf(p1.getModel()).compareTo(p2.getModel());
 			}else {
@@ -44,7 +45,8 @@ public class Test {
 		System.out.println();
 
 	}
-	
+	  
+	  
 	static public List<Product> sort(List<Product> p, final sortMethod method) {
 		class sortCheck implements Comparator<Product>{
 
