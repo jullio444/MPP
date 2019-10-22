@@ -77,3 +77,11 @@ public class Dish {
 		System.out.println("Total Calories in the menu using reduce: " + calculateTotalCalories(menu));
 	}
 }
+/**Sample Output
+ * 
+Is there any Vegetarian meal available?  true
+Is there any healthy menu have calories less than 1000?  true
+Is there any unhealthy menu have calories greater than 1000?  false
+The first item for the type of MEAT: pork
+Total Calories in the menu using reduce: 4300
+*/

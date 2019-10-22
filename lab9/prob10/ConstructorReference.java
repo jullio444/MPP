@@ -76,7 +76,7 @@ public class ConstructorReference {
 		System.out.println("Constructor2-> "+f2.apply("Bobi Wine", 36));
 		
 		HumanInterface<String, Integer, String, Human> f3 = Human::new;
-		System.out.println("Constructor3-> "+f3.createHuma("Bobi Wine", 36, "Male"));
+		System.out.println("Constructor3-> "+f3.createHuman("Bobi Wine", 36, "Male"));
 		
 		// Query 3 : Count the male candidates whose age is more than 30
 		int count = (int) new ArrayList<>(Arrays.asList(list)).stream().filter(h->h.getGender().equals("Male") 
@@ -88,7 +88,16 @@ public class ConstructorReference {
 	}
 
 	interface HumanInterface<T, U, S, R> {
-		R createHuma(T t, U u, S s);
+		R createHuman(T t, U u, S s);
 	}
 
 }
+/**
+ * 
+Jane
+Constructor1-> Human [name=Julius, age=0, gender=null]
+Constructor2-> Human [name=Bobi Wine, age=36, gender=null]
+Constructor3-> Human [name=Bobi Wine, age=36, gender=Male]
+Count the male candidates whose age is more than 30: 1 
+ * 
+ */

@@ -65,3 +65,13 @@ public class PuttingIntoPractice{
         System.out.println("What's the highest value in all the transactions? "+highestValue);
     }
 }
+/***Sample Output
+ * 
+[{Trader:Brian in Cambridge, year: 2011, value:300}, {Trader:Raoul in Cambridge, year: 2011, value:400}]
+Unique cities-> Cambridge, Milan
+[Trader:Alan in Cambridge, Trader:Brian in Cambridge, Trader:Raoul in Cambridge]
+ALL TRADERS ARE: Alan, Brian, Mario, Raoul
+Are there any traders based in Milan? true
+[{Trader:Brian in Cambridge, year: 2011, value:300}, {Trader:Raoul in Cambridge, year: 2012, value:1000}, {Trader:Raoul in Cambridge, year: 2011, value:400}, {Trader:Mario in Cambridge, year: 2012, value:710}, {Trader:Mario in Cambridge, year: 2012, value:700}, {Trader:Alan in Cambridge, year: 2012, value:950}]
+What's the highest value in all the transactions? 1000
+*/
