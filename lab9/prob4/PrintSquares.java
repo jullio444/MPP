@@ -9,7 +9,7 @@ public class PrintSquares {
 	}
 
 	public static void printSquares(int num) {
-		Stream.iterate(1, n->n+1)
+		IntStream.iterate(1, n->n+1)
 		.map(n->n*n)
 		.limit(num)
 		.forEach(System.out::println);
