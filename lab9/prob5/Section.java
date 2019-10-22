@@ -17,7 +17,7 @@ public class Section {
 	
 	public static Stream<String> streamSection(Stream<String> stream, int m, int n) {
 		// Implement the code
-		return stream.skip(m).limit(n-m+1);
+		return stream.skip(m).limit(n-m);
 	}
 
 	//support method for the main method -- for testing

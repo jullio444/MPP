@@ -68,9 +68,6 @@ public class Dish {
 		return dishes.stream().map(Dish::getCalories).reduce(0, (a, b) -> a + b);
 	}
 
-//	public static int calculateTotalCaloriesMethodReference(List<Dish> dishes) {
-//		
-//	}
 
 	public static void main(String[] args) {
 		System.out.println("Is there any Vegetarian meal available?  " + isVegetarianAvailable(menu));

@@ -3,18 +3,18 @@ package lab9.prob6;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class UnionTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<Set<String>> list = new ArrayList<>();
-				list.add(new HashSet<String>(Arrays.asList("A", "B")));
-				list.add(new HashSet<String>(Arrays.asList("D"))); 
-				list.add(new HashSet<String>(Arrays.asList("1", "3", "5")));
+				list.add(new TreeSet<String>(Arrays.asList("A", "B")));
+				list.add(new TreeSet<String>(Arrays.asList("D"))); 
+				list.add(new TreeSet<String>(Arrays.asList("1", "3", "5")));
 				
 				System.out.println(list);
 
